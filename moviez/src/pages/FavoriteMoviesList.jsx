@@ -5,7 +5,7 @@ const FavoriteMoviesList = () => {
   const favorites = useSelector((state) => state.movies.favorites);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 bg-fixed  bg-no-repeat bg-cover bg-[url('https://img.lovepik.com/photo/20211202/medium/lovepik-young-friends-watching-movie-at-the-cinema-picture_501411384.jpg')]">
       <h1 className="text-2xl font-bold mb-4">Favorite Movies</h1>
       {favorites.length === 0 ? (
         <p>No favorite movies.</p>

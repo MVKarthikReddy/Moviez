@@ -21,7 +21,7 @@ const MovieCard = (props) => {
   };
 
   return (
-    <div className="  max-w-[400px]  border relative overflow-hidden h-full flex flex-col gap-4 border-[#3f3f4666]  p-6 rounded-md bg-[var(secondary-bg)] text-white w-full bg-base-100 shadow-xl bg-black">
+    <div className="  max-w-[400px]  border relative overflow-hidden h-full flex flex-col gap-4 border-[#3f3f4666]  p-6 rounded-md bg-[var(secondary-bg)] text-white w-full bg-base-100 shadow-xl bg-black bg-opacity-90">
       <Link to={imdb_url} target="_blank">
         <img src={image} alt={movie} />
         <div className="card-body">
